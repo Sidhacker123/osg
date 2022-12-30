@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+  mfcProj.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1374,5): warning MSB8012: TargetPath(D:\AutoCAD projects\mfcProj\x64\Debug\mfcProj.dll) does not match the Linker's OutputFile property value (D:\AutoCAD projects\mfcProj\x64\Debug\mfcProj.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1375,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.arx). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library D:\AutoCAD projects\mfcProj\x64\Debug\mfcProj.lib and object D:\AutoCAD projects\mfcProj\x64\Debug\mfcProj.exp
+rxapi.lib(libinit.obj) : warning LNK4099: PDB '' was not found with 'rxapi.lib(libinit.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  mfcProj.vcxproj -> D:\AutoCAD projects\mfcProj\x64\Debug\mfcProj.dll
